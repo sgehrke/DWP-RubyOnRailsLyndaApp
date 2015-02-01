@@ -1,0 +1,17 @@
+<h1>Main#hello</h1>
+<p>Hello Web People</p>
+<%= 1+1 %>
+
+<br />
+
+<% target = 'world' %>
+<%= "hello #{target}" %>
+<br/>
+
+<% @array.each do |n| %>
+	<%= n %><br/>
+<% end %>
+
+<a href="/main/index">Index Page 1</a><br>
+
+<%= link_to('Index Page 2', {:action => 'index'}) %> 
